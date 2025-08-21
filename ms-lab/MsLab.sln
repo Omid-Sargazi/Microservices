@@ -3,6 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contracts", "Contracts\Contracts.csproj", "{52727D9B-09DF-40C6-8C68-B5C5639A6366}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderService", "OrderService\OrderService.csproj", "{A958F536-D342-4DB8-A7DB-DC4298017E33}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BillingWorker", "BillingWorker\BillingWorker.csproj", "{B384C8DB-3536-43AC-8A92-331887C59BD0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -10,5 +16,19 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{52727D9B-09DF-40C6-8C68-B5C5639A6366}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52727D9B-09DF-40C6-8C68-B5C5639A6366}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52727D9B-09DF-40C6-8C68-B5C5639A6366}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52727D9B-09DF-40C6-8C68-B5C5639A6366}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A958F536-D342-4DB8-A7DB-DC4298017E33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A958F536-D342-4DB8-A7DB-DC4298017E33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A958F536-D342-4DB8-A7DB-DC4298017E33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A958F536-D342-4DB8-A7DB-DC4298017E33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B384C8DB-3536-43AC-8A92-331887C59BD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B384C8DB-3536-43AC-8A92-331887C59BD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B384C8DB-3536-43AC-8A92-331887C59BD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B384C8DB-3536-43AC-8A92-331887C59BD0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
